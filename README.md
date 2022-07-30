@@ -1,5 +1,5 @@
 # git commands
-####configuration 
+#### configuration   
 git config -l---> show config list  
 git config help --->show all config   
 git config --global user.email---> git config  

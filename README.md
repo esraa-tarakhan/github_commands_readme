@@ -6,4 +6,5 @@ git config --global user.email---> git config
 git config --global user.email "esraa@gmail.com"----> set config  
 git config --global --unset user.email ---> delete config   
 git config --global --edit  ---> open in  editor  
-
+#### to generate security key 
+ssh-keygen -t rsa-b 2022 -c "esraatarakhan@gmail.com"

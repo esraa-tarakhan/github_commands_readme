@@ -24,7 +24,7 @@ git pull origin
 git status   -> git  st  
 git config --global alias.st status  
 git config --global alias.st  
------------------------------  
+@@@@@@@  
 git branch   -> git  br 
 git config --global alias.st branch    
 @@@@@@@@@@@@@@  

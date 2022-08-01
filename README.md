@@ -19,3 +19,23 @@ git remote add origin "http.....
 git push -u origin master  
 
 git pull origin 
+
+#### alias
+git status   -> git  st  
+git config --global alias.st status  
+git config --global alias.st  
+-----------------------------  
+git branch   -> git  br 
+git config --global alias.st branch    
+@@@@@@@@@@@@@@  
+git commit -m   -> git  cm  
+git config --global alias.cm "commit -m"   
+@@@@@@@@@@@@@@  
+git config --global --edit   -> to open editor  
+*git alias list on google searsh * 
+
+
+
+
+
+

@@ -33,6 +33,29 @@ git config --global alias.cm "commit -m"
 @@@@@@@@@@@@@@  
 git config --global --edit   -> to open editor  
 *git alias list on google searsh * 
+####branches   
+git branch (show me branches)  
+git branch scroll (create  branch named scroll)  
+git checkout scroll(switched to branch "scroll")  
+git branch -d scroll (to delete scroll branch)  (d is better than D)  
+git branch -D scroll (force delete scroll branch even if there are editing)  
+git checkout CHECKOUT -B Dev-feature (create branch and switch to it)    
+git branch -m Development (to rename branch)  
+Example 1:  
+git checkout master (go to master)  
+git merge Development (merge development with master)  
+git push origin master ( push without pull request)  
+git branch -d Development (delete Development branch)    
+
+Example 2:  
+git checkout Scroll (go to master)  
+git push origin Scroll ( push with pull request)  
+
+
+
+
+
+
 
 
 

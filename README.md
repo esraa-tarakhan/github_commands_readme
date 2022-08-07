@@ -32,7 +32,7 @@ git commit -m   -> git  cm
 git config --global alias.cm "commit -m"   
 @@@@@@@@@@@@@@  
 git config --global --edit   -> to open editor  
-*git alias list on google searsh * 
+*git alias list on google searsh *   
 ####branches   
 git branch (show me branches)  
 git branch scroll (create  branch named scroll)  

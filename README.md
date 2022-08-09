@@ -33,7 +33,7 @@ git config --global alias.cm "commit -m"
 @@@@@@@@@@@@@@  
 git config --global --edit   -> to open editor  
 *git alias list on google searsh *   
-####branches   
+#### branches   
 git branch (show me branches)  
 git branch scroll (create  branch named scroll)  
 git checkout scroll(switched to branch "scroll")  
@@ -50,6 +50,26 @@ git branch -d Development (delete Development branch)
 Example 2:  
 git checkout Scroll (go to master)  
 git push origin Scroll ( push with pull request)  
+
+#### to push any thing you must pull latest updates from github  
+#### stash files  
+touch about.html  
+ls  
+git status  
+echo "hello world" > about.txt  
+git add *  
+git status  
+git stash   
+git status   
+ls  
+git stash list  
+git stash pop (to return stashed files)  
+git stash list ( return empty list)  
+
+
+
+
+
 
 
 

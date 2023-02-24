@@ -10,13 +10,17 @@ git config --global --edit  ---> open in  editor
 ssh-keygen -t rsa-b 2022 -c "esraatarakhan@gmail.com" error
 #### to push and pull 
 git init  
-get branch  
+git branch -c seconduplad//create new branch
+
+get branch  //show my the current branch
 get remote -v  
 git add index.html  ||  git add *  
+ git checkout seconduplad//switch to secondypload branch
+
 get reset head index.html  ---> to unstage  
 git commit -m "    "  
 git remote add origin "http.....  
-git push -u origin master  
+git push -u origin (master)//change master to  any branch name  
 
 git pull origin 
 
